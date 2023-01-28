@@ -7,8 +7,8 @@ Common monitoring templates.
  
  mkdir -p promgrafnode/prometheus &&
  mkdir -p promgrafnode/grafana/provisioning &&
- touch promgrafnode/docker-compose.yml &&
- touch promgrafnode/prometheus/prometheus.yml
+ wget https://raw.githubusercontent.com/alblackt/monitoring/main/docker-compose.yml promgrafnode/docker-compose.yml &&
+ wget https://raw.githubusercontent.com/alblackt/monitoring/main/prometheus.yml promgrafnode/prometheus/prometheus.yml
  
  
  ## Uptime-Kuma
