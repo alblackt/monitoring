@@ -19,7 +19,8 @@ docker compose up -d
 4. You will be able to log in to Grafana http://IP_ADDRESS:3000 (admin/admin)
 
 
- ### Prometheus Windows exporther can be founbd there:
+ For Windows 
+ Prometheus Windows exporther can be founbd there:
 https://github.com/prometheus-community/windows_exporter
 
  
