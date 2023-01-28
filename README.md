@@ -1,7 +1,7 @@
 # Monitoring
 Monitoring tools
 
- # Prometheus
+ ## Prometheus
  Configuration template for setting up Prometheus, Node Exporter, Grafana, and cAdvisor using Docker Compose.
  
  # Uptime-Kuma
