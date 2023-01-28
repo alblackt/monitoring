@@ -5,9 +5,9 @@ Common monitoring templates.
  Configuration template for setting up Prometheus, Node Exporter, Grafana, and cAdvisor using Docker Compose.
  
  
- mkdir -p promgrafnode/prometheus
- mkdir -p promgrafnode/grafana/provisioning
- touch promgrafnode/docker-compose.yml
+ mkdir -p promgrafnode/prometheus &&
+ mkdir -p promgrafnode/grafana/provisioning &&
+ touch promgrafnode/docker-compose.yml &&
  touch promgrafnode/prometheus/prometheus.yml
  
  
