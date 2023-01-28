@@ -20,7 +20,7 @@ docker compose up -d
 
 
  For Windows 
- Prometheus Windows exporther can be founbd there:
+ Prometheus Windows exporther can be found there:
 https://github.com/prometheus-community/windows_exporter
 
  
