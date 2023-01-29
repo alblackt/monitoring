@@ -7,8 +7,10 @@ Common monitoring templates.
  1. To make directories and YAML-files first run: 
  
 ``` 
-mkdir -p promgrafnode/prometheus && 
-mkdir -p promgrafnode/grafana/provisioning && wget https://raw.githubusercontent.com/alblackt/monitoring/main/docker-compose.yml -O ./promgrafnode/docker-compose.yml && wget https://raw.githubusercontent.com/alblackt/monitoring/main/prometheus.yml -O ./promgrafnode/prometheus/prometheus.yml
+mkdir -p promgrafnode/prometheus
+mkdir -p promgrafnode/grafana/provisioning
+wget https://raw.githubusercontent.com/alblackt/monitoring/main/docker-compose.yml -O ./promgrafnode/docker-compose.yml
+wget https://raw.githubusercontent.com/alblackt/monitoring/main/prometheus.yml -O ./promgrafnode/prometheus/prometheus.yml
 ```
  2. Check your UID (id -u) and paths in docker-compose.yml 
  Check IP address in prometheus.yml
